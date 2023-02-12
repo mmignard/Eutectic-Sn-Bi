@@ -1,4 +1,4 @@
-# Tin Bismuth Eutectic Allow Science Fair project
+# Tin Bismuth Eutectic Alloy Science Fair project
 
 ## General comments
 
@@ -21,7 +21,3 @@ Collecting the data from at which temperatures each allow started and ended its 
 The eutectic freezing point for the alloy of 40/60% Sn/Bi at a temperature far below the freezing points of either tin or bismuth is quite striking.
 
 ## Links
-
-- [Orfanidis Book and Matlab Code](http://www.ece.rutgers.edu/~orfanidi/ewa)
-- [Materials Database](https://refractiveindex.info/)
-- [Sopra Database](http://www.sspectra.com/sopra.html)
