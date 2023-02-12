@@ -1,28 +1,24 @@
-# Thin Film Multilayer Optics Analysis
+# Tin Bismuth Eutectic Allow Science Fair project
 
 ## General comments
 
-This code is useful for creating optical spectra of thin film multilayer stacks. The basic code leverages the matlab code written by Sophocles J. Orfanidis, which is described well in his book. Both that code and book are available on the link at the bottom. This python code extends the multilayer functionality so that it is specific for optical power, and it analyzes multiple wavelengths with one function call. I have added functions to read material files, calculate the color of spectra, and use Cauchy coefficients of dielectric materials.
+This code was written as part of a science fair project with one of my sons when he was in middle school. Science fairs typically make a big deal out of following the "scientific method", but this is not how real scientists work. This project shows how suprising results can lead to new insights.
 
-Additional material files are available from the links below.
+First, we measured the freezing points of two metals, tin and bismuth. The freezing point data is fairly obvious as the flat areas in the graph below which shows measured temputature versus time. A reasonable hypothesis is that the freezing point of a mixture of tin and bismuth will be somewhere between the freezing point of tin and the freezing point of bismuth.
 
-Here are some examples produced with this code:
+[<img src="./media/freezingSnBi.svg" width="500">]()
 
-Air to glass reflections. Compare to the examples of Fresnel equation shown on [https://en.wikipedia.org/wiki/Fresnel_equations]()
+To get this data, we used an Ardiuno with a K-type thermocouple, an AD8495 amplifer, and an ADS1115 ADC. The code is in directory ./arduino. A C# GUI to plot the data in real-time while logging it is in directory ./GUI
 
-[<img src="./media/Air2Glass.svg" width="500">]()
+We then made several mixtures of tin and bismuth with varying amounts of the two metals. The freezing diagrams are shown below. For many of the alloys, there is not a clear plateau in the temperature graph as the metal cools off, but there is a clear change in the cooling rate. I wish we had cooled the metals off more slowly by insulating them during the cooldown to avoid the supercooled bounce-back.
 
-The reflected color of titanium depends on the thickness of the oxide layer formed on the titanium. This property is exploited to make colorful jewelry and art.
+[<img src="./media/freezingSnBiall.svg" width="500">]()
 
-[<img src="./media/TiOx_color.svg" width="500">]()
+Collecting the data from at which temperatures each allow started and ended its freezing (liquidus and solidus), and plotting it as a function of the fraction of bismuth in each alloy gives the phase diagram as shown below. 
 
-The imod was a reflective display based on thin film interference that was developed the company Iridigm, later acquired by Qualcomm, but it was not a commercial success. The color of pixels in this display could by changed by varying the thickness of the airgap in the optical thin film stack. The spectra from some selected airgaps is shown here:
+[<img src="./media/phaseSnBi.svg" width="500">]()
 
-[<img src="./media/imodSpectrum.svg" width="500">]()
-
-The colors of the imod display are shown here over a wider range of airgap thicknesses:
-
-[<img src="./media/imodColors.svg" width="500">]()
+The eutectic freezing point for the alloy of 40/60% Sn/Bi at a temperature far below the freezing points of either tin or bismuth is quite striking.
 
 ## Links
 
