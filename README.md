@@ -12,7 +12,7 @@ To get this data, we used an Ardiuno with a K-type thermocouple, an AD8495 ampli
 
 We then made several mixtures of tin and bismuth with varying amounts of the two metals. The freezing diagrams are shown below. For many of the alloys, there is not a clear plateau in the temperature graph as the metal cools off, but there is a clear change in the cooling rate. I wish we had cooled the metals off more slowly by insulating them during the cooldown to avoid the supercooled bounce-back.
 
-[<img src="./media/freezingSnBiall.svg" width="500">]()
+[<img src="./media/freezingSnBiAll.svg" width="500">]()
 
 Collecting the data from at which temperatures each allow started and ended its freezing (liquidus and solidus), and plotting it as a function of the fraction of bismuth in each alloy gives the phase diagram as shown below. 
 
