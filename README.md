@@ -14,7 +14,7 @@ We then made several mixtures of tin and bismuth with varying amounts of the two
 
 [<img src="./media/freezingSnBiAll.svg" width="500">]()
 
-Collecting the data from at which temperatures each allow started and ended its freezing (liquidus and solidus), and plotting it as a function of the fraction of bismuth in each alloy gives the phase diagram as shown below. 
+Collecting the data from at which temperatures each alloy started and ended its freezing (liquidus and solidus), and plotting it as a function of the fraction of bismuth in each alloy gives the phase diagram as shown below. 
 
 [<img src="./media/phaseSnBi.svg" width="500">]()
 
